@@ -19,6 +19,20 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
+
+    <!-- Icons -->
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="16"
+      height="16"
+      fill="currentColor"
+      class="bi bi-star-fill"
+      viewBox="0 0 16 16"
+    >
+      <path
+        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+      />
+    </svg>
     <!-- Stylesheet -->
     <link rel="stylesheet" href="./css/style.css" />
     <title>Rubber Duck</title>
@@ -29,7 +43,7 @@
       <div class="nav">
         <nav class="navbar bg-body-tertiary fixed-top">
           <div class="container-fluid">
-            <img src="./img/logo.png" alt="navbar-logo" />
+            <img src="./img/logo.png" alt="navbar-logo" class="navbar-logo" />
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
               <div class="container-fluid">
                 <a class="navbar-brand d-none d-lg-inline" href="#">Home</a>
@@ -120,15 +134,242 @@
 
       <!-- Info's section -->
       <section id="Info">
-        <div class="container">
+        <div class="container mt-5 text-center">
           <div class="row">
-            <div class="col">
-              <div></div>
-              <div></div>
-              <div></div>
+            <div class="col-lg-4 col-sm-12">
+              <div>
+                <h2>Lunga Durata della Batteria</h2>
+                <p>
+                  Goditi ore di assistenza continua nella risoluzione dei bug
+                  grazie alla lunga durata della "batteria" (ovvero la tua
+                  pazienza) della paperella di gomma
+                </p>
+              </div>
+              <div>
+                <h2>Compatibilità Universale</h2>
+                <p>
+                  Goditi ore di assistenza continua nella risoluzione dei bug
+                  grazie alla lunga durata della "batteria" (ovvero la tua
+                  pazienza) della paperella di gomma
+                </p>
+              </div>
+              <div>
+                <h2>Design Elegante</h2>
+                <p>
+                  Goditi ore di assistenza continua nella risoluzione dei bug
+                  grazie alla lunga durata della "batteria" (ovvero la tua
+                  pazienza) della paperella di gomma
+                </p>
+              </div>
             </div>
-            <div class="col"></div>
-            <div class="col"></div>
+            <div
+              class="col-lg-4 col-sm-12 d-flex align-items-center justify-content-center"
+            >
+              <img src="./img/invisible.png" alt="" class="tab-img" />
+            </div>
+            <div class="col-lg-4 col-sm-12">
+              <div>
+                <h2>Resistenza agli spruzzi</h2>
+                <p>
+                  Goditi ore di assistenza continua nella risoluzione dei bug
+                  grazie alla lunga durata della "batteria" (ovvero la tua
+                  pazienza) della paperella di gomma
+                </p>
+              </div>
+              <div>
+                <h2>Portabilità</h2>
+                <p>
+                  Goditi ore di assistenza continua nella risoluzione dei bug
+                  grazie alla lunga durata della "batteria" (ovvero la tua
+                  pazienza) della paperella di gomma
+                </p>
+              </div>
+              <div>
+                <h2>Promemoria anti-stress</h2>
+                <p>
+                  Goditi ore di assistenza continua nella risoluzione dei bug
+                  grazie alla lunga durata della "batteria" (ovvero la tua
+                  pazienza) della paperella di gomma
+                </p>
+              </div>
+            </div>
+          </div>
+          <h2 class="fs-1 mt-5">Cosa ne pensano i nostri sviluppatori</h2>
+        </div>
+      </section>
+
+      <!-- Collection section -->
+      <section id="collection">
+        <div class="container text-center">
+          <h2 class="fs-1 pt-4">La collezione di paperelle</h2>
+          <p class="fs-5">Una paperella per ogni stile di programmazione</p>
+
+          <div class="row">
+            <div class="col-lg-4 col-sm-6">
+              <img src="./img/product-item1.png" alt="" class="item" />
+              <div class="price-tag">
+                <p class="type-duck">Cool-duck</p>
+                <span>$15</span>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <img src="./img/product-item2.png" alt="" class="item" />
+              <div class="price-tag">
+                <p class="type-duck">Classic-duck</p>
+                <span>$29</span>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <img src="./img/product-item3.png" alt="" class="item" />
+              <div class="price-tag">
+                <p class="type-duck">Bat-duck</p>
+                <span>$69</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQs -->
+      <section id="FAQs">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-6 col-sm-12">
+              <img src="./img/single-image2.png" alt="" class="promo" />
+            </div>
+            <div class="col-lg-6 col-sm-12">
+              <h3 class="fs-1 text-start">FAQs</h3>
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button fw-semibold fs-3"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      Come posso utilizzare la paperella di gomma per il
+                      debugging?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseOne"
+                    class="accordion-collapse collapse show"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Il rubber duck debugging è semplice: spiega il tuo codice
+                      alla paperella di gomma come se fosse un collega.
+                      Descrivendo ogni passo, potresti individuare errori o
+                      capire meglio il problema. La paperella non risponde, ma
+                      ti aiuta a chiarire i tuoi pensieri.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed fw-semibold fs-3"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      Quali sono i vantaggi di usare una paperella di gomma per
+                      i programmatori?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseTwo"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      La paperella di gomma aiuta i programmatori a pensare in
+                      modo critico e a verbalizzare i problemi. Questo processo
+                      può portare a nuove intuizioni e soluzioni. Inoltre, è un
+                      ottimo strumento antistress e aggiunge un tocco di
+                      personalità alla scrivania.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed fw-semibold fs-3"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      Posso usare la paperella di gomma indipendentemente dal
+                      linguaggio di programmazione che utilizzo?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseThree"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Assolutamente sì! La paperella di gomma è universale e
+                      funziona con qualsiasi linguaggio di programmazione. Non
+                      importa se stai scrivendo in Python, Java, C++ o qualsiasi
+                      altro linguaggio, la paperella sarà sempre pronta ad
+                      ascoltarti.
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button fw-semibold fs-3"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour"
+                        aria-expanded="true"
+                        aria-controls="collapseFour"
+                      >
+                        Quanto dettagliatamente devo spiegare il mio codice alla
+                        paperella di gomma?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseFour"
+                      class="accordion-collapse collapse show"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                        Dovresti spiegare ogni dettaglio del tuo codice. Più sei
+                        dettagliato, più è probabile che tu scopra errori o
+                        ottenga nuove prospettive. Questo processo ti costringe
+                        a rivedere attentamente ogni parte del tuo lavoro.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row gy-5">
+              <div class="col-lg-4 col-sm-6 foot">
+                <h2>100% Prodotto Di Qualità</h2>
+                <p>
+                  Abbiamo anche la possibilità di ritiro direttamente dallo
+                  stagno
+                </p>
+              </div>
+              <div class="col-lg-4 col-sm-6 foot">
+                <h2>Spedizione Gratuita</h2>
+                <p>Dal magazzino alla scrivania</p>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <h2>Rimborso Garantito</h2>
+                <p>Ti rimborsiamo se la paperella fa quack</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
