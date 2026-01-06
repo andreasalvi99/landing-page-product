@@ -41,7 +41,7 @@
 
 .container > button {
   height: 60px;
-  width: 258px;
+  width: 50%;
   margin-top: 25px;
   background-color: transparent;
   border: 1px solid black;
@@ -61,8 +61,8 @@
 }
 
 .item {
-  height: 350px;
-  width: 415px;
+  height: 85%;
+  width: 85%;
 }
 
 span {
@@ -88,4 +88,16 @@ span {
 .promo {
   height: 610px;
   width: 100%;
+}
+
+/* Footer */
+
+#footer-page {
+  margin-top: 100px;
+  background-color: #f8f8f8;
+  padding-top: 30px;
+}
+
+.form-control {
+  color: #f8f8f8;
 }
