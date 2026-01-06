@@ -23,6 +23,16 @@ a:hover {
   color: rgb(129, 75, 254);
 }
 
+.navbar-icon {
+  width: 40px;
+  height: 40px;
+  color: black;
+}
+
+button.navbar-toggler {
+  border: none;
+}
+
 /* Debuggings section */
 .box {
   height: 80vh;
