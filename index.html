@@ -20,19 +20,6 @@
       crossorigin="anonymous"
     />
 
-    <!-- Icons -->
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="16"
-      height="16"
-      fill="currentColor"
-      class="bi bi-star-fill"
-      viewBox="0 0 16 16"
-    >
-      <path
-        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
-      />
-    </svg>
     <!-- Stylesheet -->
     <link rel="stylesheet" href="./css/style.css" />
     <title>Rubber Duck</title>
@@ -46,7 +33,6 @@
             <img src="./img/logo.png" alt="navbar-logo" class="navbar-logo" />
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
               <div class="container-fluid">
-                <a class="navbar-brand d-none d-lg-inline" href="#">Home</a>
                 <button
                   class="navbar-toggler d-lg-none"
                   type="button"
@@ -64,9 +50,7 @@
                   aria-labelledby="offcanvasNavbarLabel"
                 >
                   <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-                      Offcanvas
-                    </h5>
+                    <img src="./img/logo.png" alt="" />
                     <button
                       type="button"
                       class="btn-close"
@@ -76,30 +60,26 @@
                   </div>
 
                   <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#"
-                        >Home</a
-                      >
+                    <li class="nav-item my-3">
+                      <a aria-current="page" href="#">Home</a>
                     </li>
 
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#"
-                        >I punti di forza</a
-                      >
+                    <li class="nav-item my-3">
+                      <a aria-current="page" href="#">I punti di forza</a>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Recensioni</a>
+                    <li class="nav-item my-3">
+                      <a href="#">Recensioni</a>
                     </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link" href="#">Paperelle</a>
+                    <li class="nav-item my-3">
+                      <a href="#">Paperelle</a>
                     </li>
 
-                    <li class="nav-item">
-                      <a class="nav-link">FAQs</a>
+                    <li class="nav-item my-3">
+                      <a href="#">FAQs</a>
                     </li>
 
-                    <li class="nav-item">
-                      <a class="nav-link">Newsletter</a>
+                    <li class="nav-item my-3">
+                      <a href="#">Newsletter</a>
                     </li>
                   </ul>
                 </div>
@@ -148,17 +128,17 @@
               <div>
                 <h2>Compatibilità Universale</h2>
                 <p>
-                  Goditi ore di assistenza continua nella risoluzione dei bug
-                  grazie alla lunga durata della "batteria" (ovvero la tua
-                  pazienza) della paperella di gomma
+                  Funziona con tutti i linguaggi di programmazione e sistemi
+                  operativi, la paperella di gomma è l'unico strumento di
+                  debugging che non necessità di aggiornamenti.
                 </p>
               </div>
               <div>
                 <h2>Design Elegante</h2>
                 <p>
-                  Goditi ore di assistenza continua nella risoluzione dei bug
-                  grazie alla lunga durata della "batteria" (ovvero la tua
-                  pazienza) della paperella di gomma
+                  Mostra con orgoglio il design elegante e raffinato della tua
+                  paperella di gomma, disponibile in vari colori per abbinarsi
+                  al tuo stile di programmazione.
                 </p>
               </div>
             </div>
@@ -171,30 +151,349 @@
               <div>
                 <h2>Resistenza agli spruzzi</h2>
                 <p>
-                  Goditi ore di assistenza continua nella risoluzione dei bug
-                  grazie alla lunga durata della "batteria" (ovvero la tua
-                  pazienza) della paperella di gomma
+                  Perfetta per resistere ai piccoli incidenti con caffè e
+                  bevande, la tua paperella di gomma non teme schizzi,
+                  mantenendoti sempre pronto per il debugging.
                 </p>
               </div>
               <div>
                 <h2>Portabilità</h2>
                 <p>
-                  Goditi ore di assistenza continua nella risoluzione dei bug
-                  grazie alla lunga durata della "batteria" (ovvero la tua
-                  pazienza) della paperella di gomma
+                  Leggera e facile da trasportare la paperella di gomma può
+                  essere il tuo compagno di lavoro ovunque tu vada. Portala con
+                  te per un supporto costante.
                 </p>
               </div>
               <div>
                 <h2>Promemoria anti-stress</h2>
                 <p>
-                  Goditi ore di assistenza continua nella risoluzione dei bug
-                  grazie alla lunga durata della "batteria" (ovvero la tua
-                  pazienza) della paperella di gomma
+                  Quando lo stress del codice diventa troppo, spremi la tua
+                  paperella di gomma per un rapido sollievo anti-stress, senza
+                  bisogno di software complicati.
                 </p>
               </div>
             </div>
           </div>
-          <h2 class="fs-1 mt-5">Cosa ne pensano i nostri sviluppatori</h2>
+
+          <h2 class="fs-1 my-5">Cosa ne pensano i nostri sviluppatori</h2>
+          <div id="carouselExampleDark" class="carousel carousel-dark slide">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="0"
+                class="active carousel-button"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                class="carousel-button"
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                class="carousel-button d-sm-inline-block d-lg-none"
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+              <button
+                class="carousel-button d-sm-inline-block d-lg-none"
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="3"
+                aria-label="Slide 4"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <div class="carousel-p">
+                  <p>
+                    La paperella di gomma è <br />
+                    diventata il mio strumento di <br />
+                    debugging preferito. Spiegare <br />
+                    i problemi al mio 'assistente' <br />
+                    silenzioso mi ha aiutato a <br />
+                    risolvere bug che altrimenti mi <br />
+                    avrebbero fatto impazzire. È <br />
+                    anche un ottimo antistress <br />
+                    nelle giornate difficili! <br />
+                    <img
+                      src="./img/svgviewer-output.svg"
+                      alt=""
+                      class="star-review my-4"
+                    />
+                    <img
+                      src="./img/svgviewer-output.svg"
+                      alt=""
+                      class="star-review my-4"
+                    />
+                    <img
+                      src="./img/svgviewer-output.svg"
+                      alt=""
+                      class="star-review my-4"
+                    />
+                    <img
+                      src="./img/svgviewer-output.svg"
+                      alt=""
+                      class="star-review my-4"
+                    />
+                    <img
+                      src="./img/svgviewer-output.svg"
+                      alt=""
+                      class="star-review my-4"
+                    />
+                    <span class="fw-semibold d-block"
+                      >David William - Feb 22, 2023</span
+                    >
+                  </p>
+                  <p class="d-sm-none d-lg-inline-block">
+                    Non avrei mai immaginato <br />
+                    quanto una semplice paperella <br />
+                    di gomma potesse fare la <br />
+                    differenza. È incredibile come <br />
+                    verbalizzare i problemi davanti <br />
+                    alla paperella mi aiuti a vedere <br />
+                    soluzioni che prima non <br />
+                    notavo. Inoltre, è carinissima <br />
+                    sulla mia scrivania! <br />
+                    <img
+                      src="./img/svgviewer-output.svg"
+                      alt=""
+                      class="star-review my-4"
+                    />
+                    <img
+                      src="./img/svgviewer-output.svg"
+                      alt=""
+                      class="star-review my-4"
+                    />
+                    <img
+                      src="./img/svgviewer-output.svg"
+                      alt=""
+                      class="star-review my-4"
+                    />
+                    <img
+                      src="./img/svgviewer-output.svg"
+                      alt=""
+                      class="star-review my-4"
+                    />
+                    <img
+                      src="./img/svgviewer-output.svg"
+                      alt=""
+                      class="star-review my-4"
+                    />
+                    <span class="fw-semibold d-sm-none d-lg-block"
+                      >Emma Turner - April 5, 2023</span
+                    >
+                  </p>
+                  <p class="d-sm-none d-lg-inline-block">
+                    Da quando ho adottato la <br />
+                    paperella di gomma, il mio <br />
+                    processo di debugging è <br />
+                    migliorato notevolmente. La <br />
+                    trovo molto utile per schiarirmi <br />
+                    le idee e trovare errori nascosti. <br />
+                    La porto sempre con me, <br />
+                    ovunque vada! <br />
+                    <img
+                      src="./img/svgviewer-output.svg"
+                      alt=""
+                      class="star-review my-4"
+                    />
+                    <img
+                      src="./img/svgviewer-output.svg"
+                      alt=""
+                      class="star-review my-4"
+                    />
+                    <img
+                      src="./img/svgviewer-output.svg"
+                      alt=""
+                      class="star-review my-4"
+                    />
+                    <img
+                      src="./img/svgviewer-output.svg"
+                      alt=""
+                      class="star-review my-4"
+                    />
+                    <img
+                      src="./img/svgviewer-output.svg"
+                      alt=""
+                      class="star-review my-4"
+                    />
+                    <span class="d-sm-none d-lg-block fw-semibold"
+                      >Rachel Bryan - April 18, 2023</span
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <div class="carousel-p">
+                  <p class="d-sm-none d-lg-inline-block">
+                    La mia paperella di gomma è il miglior <br />
+                    collega che potessi chiedere. Sempre pronta <br />
+                    ad ascoltare, mai giudicante. È sorprendente <br />
+                    come qualcosa di così semplice possa <br />
+                    essere così efficace nel risolvere <br />
+                    problemi complessi. E non dimentichiamo <br />
+                    che è anche adorabile! <br />
+                    <img
+                      src="./img/svgviewer-output.svg"
+                      alt=""
+                      class="star-review my-4"
+                    />
+                    <img
+                      src="./img/svgviewer-output.svg"
+                      alt=""
+                      class="star-review my-4"
+                    />
+                    <img
+                      src="./img/svgviewer-output.svg"
+                      alt=""
+                      class="star-review my-4"
+                    />
+                    <img
+                      src="./img/svgviewer-output.svg"
+                      alt=""
+                      class="star-review my-4"
+                    />
+                    <img
+                      src="./img/svgviewer-output.svg"
+                      alt=""
+                      class="star-review my-4"
+                    />
+                    <span class="fw-semibold d-sm-none d-lg-block"
+                      >Park C - May 22, 2023</span
+                    >
+                  </p>
+                  <p class="d-sm-inline-block d-lg-none">
+                    Non avrei mai immaginato <br />
+                    quanto una semplice paperella <br />
+                    di gomma potesse fare la <br />
+                    differenza. È incredibile come <br />
+                    verbalizzare i problemi davanti <br />
+                    alla paperella mi aiuti a vedere <br />
+                    soluzioni che prima non <br />
+                    notavo. Inoltre, è carinissima <br />
+                    sulla mia scrivania! <br />
+                    <img
+                      src="./img/svgviewer-output.svg"
+                      alt=""
+                      class="star-review my-4"
+                    />
+                    <img
+                      src="./img/svgviewer-output.svg"
+                      alt=""
+                      class="star-review my-4"
+                    />
+                    <img
+                      src="./img/svgviewer-output.svg"
+                      alt=""
+                      class="star-review my-4"
+                    />
+                    <img
+                      src="./img/svgviewer-output.svg"
+                      alt=""
+                      class="star-review my-4"
+                    />
+                    <img
+                      src="./img/svgviewer-output.svg"
+                      alt=""
+                      class="star-review my-4"
+                    />
+                    <span class="fw-semibold d-sm-block d-lg-none"
+                      >Emma Turner - April 5, 2023</span
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <div class="carousel-p">
+                  <p class="d-sm-inline-block d-lg-none">
+                    Da quando ho adottato la <br />
+                    paperella di gomma, il mio <br />
+                    processo di debugging è <br />
+                    migliorato notevolmente. La <br />
+                    trovo molto utile per schiarirmi <br />
+                    le idee e trovare errori nascosti. <br />
+                    La porto sempre con me, <br />
+                    ovunque vada! <br />
+                    <img
+                      src="./img/svgviewer-output.svg"
+                      alt=""
+                      class="star-review my-4"
+                    />
+                    <img
+                      src="./img/svgviewer-output.svg"
+                      alt=""
+                      class="star-review my-4"
+                    />
+                    <img
+                      src="./img/svgviewer-output.svg"
+                      alt=""
+                      class="star-review my-4"
+                    />
+                    <img
+                      src="./img/svgviewer-output.svg"
+                      alt=""
+                      class="star-review my-4"
+                    />
+                    <img
+                      src="./img/svgviewer-output.svg"
+                      alt=""
+                      class="star-review my-4"
+                    />
+                    <span class="d-sm-block d-lg-none fw-semibold"
+                      >Rachel Bryan - April 18, 2023</span
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="4000">
+                <div class="carousel-p">
+                  <p class="d-sm-inline-block d-lg-none">
+                    La mia paperella di gomma è il miglior <br />
+                    collega che potessi chiedere. Sempre pronta <br />
+                    ad ascoltare, mai giudicante. È sorprendente <br />
+                    come qualcosa di così semplice possa <br />
+                    essere così efficace nel risolvere <br />
+                    problemi complessi. E non dimentichiamo <br />
+                    che è anche adorabile! <br />
+                    <img
+                      src="./img/svgviewer-output.svg"
+                      alt=""
+                      class="star-review my-4"
+                    />
+                    <img
+                      src="./img/svgviewer-output.svg"
+                      alt=""
+                      class="star-review my-4"
+                    />
+                    <img
+                      src="./img/svgviewer-output.svg"
+                      alt=""
+                      class="star-review my-4"
+                    />
+                    <img
+                      src="./img/svgviewer-output.svg"
+                      alt=""
+                      class="star-review my-4"
+                    />
+                    <img
+                      src="./img/svgviewer-output.svg"
+                      alt=""
+                      class="star-review my-4"
+                    />
+                    <span class="fw-semibold d-sm-block d-lg-none"
+                      >Park C - May 22, 2023</span
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -204,26 +503,122 @@
           <h2 class="fs-1 pt-4">La collezione di paperelle</h2>
           <p class="fs-5">Una paperella per ogni stile di programmazione</p>
 
-          <div class="row gy-4">
+          <div class="row gy-5">
             <div class="col-lg-4 col-sm-6">
               <img src="./img/product-item1.png" alt="" class="item" />
               <div class="price-tag">
+                <div class="mt-2">
+                  <img
+                    src="./img/svgviewer-output.svg"
+                    alt=""
+                    class="star-review text-start"
+                  />
+                  <img
+                    src="./img/svgviewer-output.svg"
+                    alt=""
+                    class="star-review text-start"
+                  />
+                  <img
+                    src="./img/svgviewer-output.svg"
+                    alt=""
+                    class="star-review text-start"
+                  />
+                  <img
+                    src="./img/svgviewer-output.svg"
+                    alt=""
+                    class="star-review text-start"
+                  />
+                  <img
+                    src="./img/svgviewer-output.svg"
+                    alt=""
+                    class="star-review text-start"
+                  />
+                  <img
+                    src="./img/svgviewer-output.svg"
+                    alt=""
+                    class="star-review text-start"
+                  />
+                </div>
                 <p class="type-duck">Cool-duck</p>
-                <span>$15</span>
+                <span class="price">$15</span>
               </div>
             </div>
             <div class="col-lg-4 col-sm-6">
               <img src="./img/product-item2.png" alt="" class="item" />
               <div class="price-tag">
+                <div class="mt-2">
+                  <img
+                    src="./img/svgviewer-output.svg"
+                    alt=""
+                    class="star-review text-start"
+                  />
+                  <img
+                    src="./img/svgviewer-output.svg"
+                    alt=""
+                    class="star-review text-start"
+                  />
+                  <img
+                    src="./img/svgviewer-output.svg"
+                    alt=""
+                    class="star-review text-start"
+                  />
+                  <img
+                    src="./img/svgviewer-output.svg"
+                    alt=""
+                    class="star-review text-start"
+                  />
+                  <img
+                    src="./img/svgviewer-output.svg"
+                    alt=""
+                    class="star-review text-start"
+                  />
+                  <img
+                    src="./img/svgviewer-output.svg"
+                    alt=""
+                    class="star-review text-start"
+                  />
+                </div>
                 <p class="type-duck">Classic-duck</p>
-                <span>$29</span>
+                <span class="price">$29</span>
               </div>
             </div>
             <div class="col-lg-4 col-sm-6">
               <img src="./img/product-item3.png" alt="" class="item" />
               <div class="price-tag">
+                <div class="mt-2">
+                  <img
+                    src="./img/svgviewer-output.svg"
+                    alt=""
+                    class="star-review text-start"
+                  />
+                  <img
+                    src="./img/svgviewer-output.svg"
+                    alt=""
+                    class="star-review text-start"
+                  />
+                  <img
+                    src="./img/svgviewer-output.svg"
+                    alt=""
+                    class="star-review text-start"
+                  />
+                  <img
+                    src="./img/svgviewer-output.svg"
+                    alt=""
+                    class="star-review text-start"
+                  />
+                  <img
+                    src="./img/svgviewer-output.svg"
+                    alt=""
+                    class="star-review text-start"
+                  />
+                  <img
+                    src="./img/svgviewer-output.svg"
+                    alt=""
+                    class="star-review text-start"
+                  />
+                </div>
                 <p class="type-duck">Bat-duck</p>
-                <span>$69</span>
+                <span class="price">$69</span>
               </div>
             </div>
           </div>
@@ -354,18 +749,102 @@
               </div>
             </div>
             <div class="row gy-5">
-              <div class="col-lg-4 col-sm-6 foot1">
+              <div class="col-lg-4 col-sm-6">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  style="display: inline-block"
+                  class="guarantiees"
+                >
+                  <use href="#balloon"></use>
+                  <symbol
+                    xmlns="http://www.w3.org/2000/svg"
+                    id="balloon"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-width="1.5"
+                    >
+                      <path
+                        d="M8 16.607c1.15.86 2.518 1.38 4 1.393c4.142.034 7.594-3.92 7.56-8.196C19.527 5.53 16.142 2.034 12 2c-4.142-.034-7.473 3.404-7.44 7.68A8.88 8.88 0 0 0 5.244 13"
+                      />
+                      <path
+                        d="M15.5 9a3.035 3.035 0 0 0-3-3M12 20.35c.321 0 .482 0 .593-.022c.654-.128 1.051-.772.858-1.39c-.033-.105-.109-.242-.261-.515M12 20.35c-.321 0-.482 0-.593-.022c-.654-.128-1.051-.772-.858-1.39c.033-.105.109-.242.261-.515M12 20.35v2.15"
+                      />
+                    </g>
+                  </symbol>
+                </svg>
                 <h2>100% Prodotto Di Qualità</h2>
                 <p>
                   Abbiamo anche la possibilità di ritiro direttamente dallo
                   stagno
                 </p>
               </div>
-              <div class="col-lg-4 col-sm-6 foot2">
+
+              <div class="col-lg-4 col-sm-6">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  style="display: inline-block"
+                  class="guarantiees"
+                >
+                  <use href="#bag-heart"></use>
+                  <symbol
+                    xmlns="http://www.w3.org/2000/svg"
+                    id="bag-heart"
+                    viewBox="0 0 24 24"
+                  >
+                    <g fill="none">
+                      <path
+                        fill="currentColor"
+                        d="m12 12.191l-.519.542a.75.75 0 0 0 1.038 0L12 12.191Zm-.957 3.675l-.444.604l.444-.604Zm1.914 0l-.444-.605l.444.605Zm-.957.462v.75v-.75Zm-.514-1.067c-.417-.307-.878-.69-1.227-1.093c-.368-.426-.509-.757-.509-.971h-1.5c0 .77.441 1.45.875 1.952c.453.525 1.014.984 1.474 1.321l.887-1.21ZM9.75 13.197c0-.576.263-.827.492-.907c.25-.088.714-.06 1.24.443l1.037-1.083c-.825-.79-1.861-1.096-2.773-.776c-.934.327-1.496 1.226-1.496 2.323h1.5Zm3.65 3.273c.46-.337 1.022-.796 1.475-1.32c.434-.502.875-1.183.875-1.953h-1.5c0 .214-.141.545-.51.971c-.348.403-.809.786-1.226 1.093l.887 1.21Zm2.35-3.273c0-1.097-.563-1.996-1.496-2.323c-.912-.32-1.948-.014-2.773.776l1.038 1.083c.525-.503.989-.531 1.24-.443c.228.08.491.33.491.907h1.5ZM10.6 16.47c.368.27.782.608 1.4.608v-1.5c-.024 0-.04 0-.094-.03a4 4 0 0 1-.42-.287l-.887 1.21Zm1.914-1.21a4 4 0 0 1-.42.289c-.054.029-.07.029-.094.029v1.5c.618 0 1.032-.337 1.4-.608l-.886-1.21Z"
+                      />
+                      <path
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-width="1.5"
+                        d="M9 6V5a3 3 0 1 1 6 0v1m5.224 6.526c-.586-3.121-.878-4.682-1.99-5.604C17.125 6 15.537 6 12.36 6h-.72c-3.176 0-4.764 0-5.875.922c-1.11.922-1.403 2.483-1.989 5.604c-.823 4.389-1.234 6.583-.034 8.029C4.942 22 7.174 22 11.639 22h.722c4.465 0 6.698 0 7.897-1.445c.696-.84.85-1.93.696-3.555"
+                      />
+                    </g>
+                  </symbol>
+                </svg>
                 <h2>Spedizione Gratuita</h2>
                 <p>Dal magazzino alla scrivania</p>
               </div>
+
               <div class="col-lg-4 col-sm-6">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  style="display: inline-block"
+                  class="guarantiees"
+                >
+                  <use href="#handiplast"></use>
+                  <symbol
+                    xmlns="http://www.w3.org/2000/svg"
+                    id="handiplast"
+                    viewBox="0 0 24 24"
+                  >
+                    <g fill="none">
+                      <path
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-width="1.5"
+                        d="M13.5 7.642L9.071 3.213a4.142 4.142 0 0 0-5.858 5.858L14.93 20.787a4.142 4.142 0 0 0 5.858-5.858l-4.358-4.358"
+                      />
+                      <path
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-width="1.5"
+                        d="m12 17.858l-2.929 2.929A4.142 4.142 0 0 1 2.596 20m3.546-8l-2.929 2.929c-.322.322-.58.685-.774 1.071M12 6.142l2.929-2.929a4.142 4.142 0 1 1 5.858 5.858L17.857 12"
+                      />
+                      <path
+                        fill="currentColor"
+                        d="M15.841 12.871a.788.788 0 1 1-1.114 1.114a.788.788 0 0 1 1.114-1.114Zm-3.712-3.712a.787.787 0 1 0-1.114 1.114a.787.787 0 0 0 1.114-1.114Zm4.641 6.497a.787.787 0 1 1-1.114 1.114a.787.787 0 0 1 1.114-1.114ZM9.345 8.23A.788.788 0 1 0 8.23 9.346A.788.788 0 0 0 9.345 8.23Zm3.712 3.713a.787.787 0 1 1-1.113 1.114a.787.787 0 0 1 1.113-1.114Zm.928 2.785a.788.788 0 1 1-1.114 1.113a.788.788 0 0 1 1.114-1.113Zm-3.712-3.713a.787.787 0 1 0-1.114 1.114a.787.787 0 0 0 1.114-1.114Z"
+                      />
+                    </g>
+                  </symbol>
+                </svg>
                 <h2>Rimborso Garantito</h2>
                 <p>Ti rimborsiamo se la paperella fa quack</p>
               </div>
@@ -386,13 +865,130 @@
             <input
               type="text"
               class="form-control"
-              placeholder="Inserisci la tua mail qui..."
+              placeholder="Lascia la tua email qui..."
               aria-label="Username"
               aria-describedby="addon-wrapping"
             />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              style="display: inline-block"
+              class="icon-send"
+            >
+              <use href="#send"></use>
+              <symbol
+                xmlns="http://www.w3.org/2000/svg"
+                id="send"
+                viewBox="0 0 32 32"
+              >
+                <path
+                  fill="currentColor"
+                  d="M26.07 3.996a2.974 2.974 0 0 0-.933.223h-.004c-.285.113-1.64.683-3.7 1.547l-7.382 3.109c-5.297 2.23-10.504 4.426-10.504 4.426l.062-.024s-.359.118-.734.375a2.03 2.03 0 0 0-.586.567c-.184.27-.332.683-.277 1.11c.09.722.558 1.155.894 1.394c.34.242.664.355.664.355h.008l4.883 1.645c.219.703 1.488 4.875 1.793 5.836c.18.574.355.933.574 1.207c.106.14.23.257.379.351a1.119 1.119 0 0 0 .246.106l-.05-.012c.015.004.027.016.038.02c.04.011.067.015.118.023c.773.234 1.394-.246 1.394-.246l.035-.028l2.883-2.625l4.832 3.707l.11.047c1.007.442 2.027.196 2.566-.238c.543-.437.754-.996.754-.996l.035-.09l3.734-19.129c.106-.472.133-.914.016-1.343a1.807 1.807 0 0 0-.781-1.047a1.872 1.872 0 0 0-1.067-.27zm-.101 2.05c-.004.063.008.056-.02.177v.011l-3.699 18.93c-.016.027-.043.086-.117.145c-.078.062-.14.101-.465-.028l-5.91-4.531l-3.57 3.254l.75-4.79l9.656-9c.398-.37.265-.448.265-.448c.028-.454-.601-.133-.601-.133l-12.176 7.543l-.004-.02l-5.836-1.965v-.004l-.015-.003a.27.27 0 0 0 .03-.012l.032-.016l.031-.011s5.211-2.196 10.508-4.426c2.652-1.117 5.324-2.242 7.379-3.11a807.312 807.312 0 0 1 3.66-1.53c.082-.032.043-.032.102-.032z"
+                />
+              </symbol>
+            </svg>
+          </div>
+          <div class="d-flex text-center mt-5 justify-content-center">
+            <figure>
+              <svg
+                class="socials"
+                xmlns="http://www.w3.org/2000/svg"
+                style="display: inline-block"
+              >
+                <use href="#facebook"></use>
+                <symbol
+                  xmlns="http://www.w3.org/2000/svg"
+                  id="facebook"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5Z"
+                  />
+                </symbol>
+              </svg>
+            </figure>
+            <figure>
+              <svg
+                class="socials"
+                xmlns="http://www.w3.org/2000/svg"
+                style="display: inline-block"
+              >
+                <use href="#twitter"></use>
+                <symbol
+                  xmlns="http://www.w3.org/2000/svg"
+                  id="twitter"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M22.46 6c-.77.35-1.6.58-2.46.69c.88-.53 1.56-1.37 1.88-2.38c-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29c0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15c0 1.49.75 2.81 1.91 3.56c-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07a4.28 4.28 0 0 0 4 2.98a8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21C16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56c.84-.6 1.56-1.36 2.14-2.23Z"
+                  />
+                </symbol>
+              </svg>
+            </figure>
+            <figure>
+              <svg
+                class="socials"
+                xmlns="http://www.w3.org/2000/svg"
+                style="display: inline-block"
+              >
+                <use href="#instagram"></use>
+                <symbol
+                  xmlns="http://www.w3.org/2000/svg"
+                  id="instagram"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3Z"
+                  />
+                </symbol>
+              </svg>
+            </figure>
+            <figure>
+              <svg
+                class="socials"
+                xmlns="http://www.w3.org/2000/svg"
+                style="display: inline-block"
+              >
+                <use href="#linkedin"></use>
+                <symbol
+                  xmlns="http://www.w3.org/2000/svg"
+                  id="linkedin"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M6.94 5a2 2 0 1 1-4-.002a2 2 0 0 1 4 .002ZM7 8.48H3V21h4V8.48Zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-4 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.72-2.91l.04-1.68Z"
+                  />
+                </symbol>
+              </svg>
+            </figure>
+            <figure>
+              <svg
+                class="socials"
+                xmlns="http://www.w3.org/2000/svg"
+                style="display: inline-block"
+              >
+                <use href="#youtube"></use>
+                <symbol
+                  xmlns="http://www.w3.org/2000/svg"
+                  id="youtube"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M12.244 4c.534.003 1.87.016 3.29.073l.504.022c1.429.067 2.857.183 3.566.38c.945.266 1.687 1.04 1.938 2.022c.4 1.56.45 4.602.456 5.339l.001.152v.174c-.007.737-.057 3.78-.457 5.339c-.254.985-.997 1.76-1.938 2.022c-.709.197-2.137.313-3.566.38l-.504.023c-1.42.056-2.756.07-3.29.072l-.235.001h-.255c-1.13-.007-5.856-.058-7.36-.476c-.944-.266-1.687-1.04-1.938-2.022c-.4-1.56-.45-4.602-.456-5.339v-.326c.006-.737.056-3.78.456-5.339c.254-.985.997-1.76 1.939-2.021c1.503-.419 6.23-.47 7.36-.476h.489ZM9.999 8.5v7l6-3.5l-6-3.5Z"
+                  />
+                </symbol>
+              </svg>
+            </figure>
           </div>
         </div>
       </section>
+      <div class="text-center my-4">
+        &copy; 2024 BooLanding Product. Designed by Boolean
+      </div>
     </main>
 
     <script

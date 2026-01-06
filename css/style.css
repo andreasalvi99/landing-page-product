@@ -12,6 +12,17 @@
   width: 50px;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+  opacity: 0.5;
+  margin: 10px;
+}
+
+a:hover {
+  color: rgb(129, 75, 254);
+}
+
 /* Debuggings section */
 .box {
   height: 80vh;
@@ -47,11 +58,71 @@
   border: 1px solid black;
 }
 
+.container > button:hover {
+  background-color: black;
+  color: white;
+}
 /* Info's section */
 .tab-img {
   height: 350px;
   width: 300px;
 }
+
+.carousel-p {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: -70px;
+}
+
+.carousel-indicators [data-bs-target] {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 18px;
+  height: 18px;
+  padding: 0;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #d2d2d2;
+  background-clip: padding-box;
+  border: 2px solid white;
+  opacity: 0.5;
+  transition: opacity 0.6s ease;
+  border-radius: 50%;
+}
+
+.active.carousel-button {
+  background-color: blue;
+  outline: 2px solid blue;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.carousel-button:focus {
+  background-color: blue;
+  outline: 2px solid blue;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.carousel-button:focus:not(:focus-visible) {
+  background-color: blue;
+  outline: 2px solid blue;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
 /* Collection section */
 
 #collection {
@@ -61,12 +132,12 @@
 }
 
 .item {
-  height: 85%;
-  width: 85%;
+  height: 87%;
+  width: 99%;
 }
 
-span {
-  color: #0fe072;
+span.price {
+  color: #04df6c;
   font-weight: 700;
   font-size: x-large;
 }
@@ -83,6 +154,11 @@ span {
   margin: 0;
 }
 
+.star-review {
+  height: 15px;
+  width: 15px;
+  display: inline;
+}
 /* FAQs section */
 
 .promo {
@@ -90,6 +166,41 @@ span {
   width: 100%;
 }
 
+.accordion-button::after {
+  flex-shrink: 0;
+  width: var(--bs-accordion-btn-icon-width);
+  height: var(--bs-accordion-btn-icon-width);
+  margin-left: auto;
+  content: "";
+  background-image: url(../img/plus.svg);
+  background-repeat: no-repeat;
+  background-size: var(--bs-accordion-btn-icon-width);
+  transition: var(--bs-accordion-btn-icon-transition) transform 0.2s ease-in-out;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url(../img/dash.svg);
+  transform: var(--bs-accordion-btn-icon-transform);
+}
+
+.guarantiees {
+  height: 40px;
+  width: 40px;
+  color: #2e45cc;
+  margin-bottom: 15px;
+}
+
+.foot {
+  width: 1px;
+  height: 20%%;
+  border-right: 1px solid rgb(221, 221, 221);
+}
+
+@media screen and (max-width: 576px) {
+  .foot {
+    display: none;
+  }
+}
 /* Footer */
 
 #footer-page {
@@ -98,6 +209,72 @@ span {
   padding-top: 30px;
 }
 
+.input-group > .form-control,
+.input-group > .form-floating,
+.input-group > .form-select {
+  position: relative;
+  flex: 0 0 450px;
+  width: 110%;
+  min-width: 0;
+}
+
 .form-control {
-  color: #f8f8f8;
+  display: block;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--bs-body-color);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #f8f8f8;
+  background-clip: padding-box;
+  border: none;
+  border-bottom: 1px solid grey;
+}
+
+.form-control:focus {
+  color: var(--bs-body-color);
+  background-color: #f8f8f89;
+  color: var(--bs-body-color);
+  background-color: #f8f8f8;
+  box-shadow: none;
+  outline: 0;
+}
+
+.icon-send {
+  width: 10%;
+  height: 40px;
+  color: #04df6c;
+  display: inline-block;
+  border-bottom: 1px solid grey;
+  cursor: pointer;
+}
+
+.input-group {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+  justify-content: center;
+}
+
+figure {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  border: 1px solid rgb(174, 174, 174);
+  position: relative;
+  cursor: pointer;
+}
+
+.socials {
+  color: #04df6c;
+  width: 30px;
+  height: 30px;
+  line-height: 40px;
+  position: absolute;
+  transform: translate(-15px, 8px);
 }
